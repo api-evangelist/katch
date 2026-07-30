@@ -1,7 +1,28 @@
 aid: katch
+accessModel:
+  pricing: unknown
+  onboarding: unknown
+  trial: false
+  try_now: false
+  public: false
+  label: Unknown
+  confidence: low
+  source: []
+  generated: '2026-07-22'
+  method: derived
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/icons/katch.png
 name: Katch
-description: Katch is a company surfaced as a portfolio company of speedinvest and added to the API Evangelist
-  network as a stub for enrichment. This profile is a lead awaiting the enrichment pipeline.
+description: >-
+  Katch is a Speedinvest-backed agricultural technology and embedded-finance
+  platform serving agribusiness supply chains. It offers essential digital
+  services for its partners, including e-commerce, grain procurement, and
+  business intelligence, and layers embedded financial solutions such as
+  factoring and credit directly within transactions. This lets agricultural
+  partners manage cash flow, access working capital, and streamline supply-chain
+  operations from a single platform. Katch was added to the API Evangelist
+  network as a portfolio lead; an enrichment pass found no public developer
+  program, API documentation, OpenAPI, or machine-readable API surface for the
+  company at this time.
 url: https://raw.githubusercontent.com/api-evangelist/katch/refs/heads/main/apis.yml
 x-type: company
 x-source: vc-portfolio
@@ -11,12 +32,26 @@ x-tier: stub
 x-tier-reason: portfolio-lead
 specificationVersion: '0.20'
 created: '2026-07-17'
-modified: '2026-07-17'
+modified: '2026-07-20'
 tags:
 - Company
+- Agriculture
+- AgTech
+- Embedded Finance
+- Fintech
+- E-Commerce
+- Supply Chain
+- Factoring
+- Credit
+- Business Intelligence
 apis: []
 maintainers:
 - FN: Kin Lane
   email: kin@apievangelist.com
 - FN: APIs.json
   email: info@apis.io
+x-enrichment:
+  date: '2026-07-20'
+  status: minimal
+  artifacts_added: 0
+  pass: local-v1
